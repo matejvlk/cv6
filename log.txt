@@ -1,0 +1,9 @@
+15:55:13.201 [main] INFO  ppj.assignments.Main - Starting Main on DESKTOP-T1VORTP with PID 12260 (C:\Users\vlkma\Desktop\SCHOOL\TUL\PPJ\repos\cv6\target\classes started by vlkma in C:\Users\vlkma\Desktop\SCHOOL\TUL\PPJ\repos\cv6)
+15:55:13.213 [main] DEBUG ppj.assignments.Main - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+15:55:13.213 [main] INFO  ppj.assignments.Main - The following profiles are active: devel
+15:55:13.370 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@11bb571c: startup date [Mon Mar 26 15:55:13 CEST 2018]; root of context hierarchy
+15:55:15.938 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+15:55:15.968 [main] INFO  ppj.assignments.Main - Started Main in 4.833 seconds (JVM running for 6.855)
+15:55:15.975 [main] DEBUG ppj.assignments.Main - Application PPJ_cv6 [profiles devel, description 'Aplikace v profilu development.']
+15:55:15.977 [Thread-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@11bb571c: startup date [Mon Mar 26 15:55:13 CEST 2018]; root of context hierarchy
+15:55:15.980 [Thread-1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown

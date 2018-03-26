@@ -5,17 +5,29 @@
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <file>log.txt</file>
+        <append>false</append>
+    </appender>
 
-    <logger name="cz.tul" level="DEBUG"/>
+    <logger name="spring" level="WARN"/>
 
-    <root level="INFO">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
     </root>
 
-    <springProfile name="debug">
-        <root level="DEBUG">
+
+    <springProfile name="devel">
+        <root level="INFO">
             <appender-ref ref="STDOUT"/>
+            <appender-ref ref="FILE"/>
         </root>
+
+        <logger name="ppj" level="DEBUG"/>
     </springProfile>
 
 </configuration>
